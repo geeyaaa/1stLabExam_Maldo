@@ -1,0 +1,107 @@
+body{
+    letter-spacing: 1px;
+    font-family: Verdana, Arial, sans-serif;
+    color:#0b0d13;
+    background-image: url(images/coast.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#logo{
+    background-image: url(images/logo.jpg);
+    height: 150px;
+    width: 150px;
+    background-size: 100% 100%;
+    margin-left:1500px;
+    margin-top: -20px;
+    position: relative;
+    
+}
+nav {
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 50px;
+    display: inline-block;
+    font-size: large;
+     
+}
+nav a{
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    color:#310505cc;
+    padding-left: 50px;
+    justify-content: space-between;
+
+   
+}
+nav a:link{
+    color:#a0782e;
+}
+nav a:visited{
+    color:#244eaa;
+}
+nav a:hover{
+    color:#d6550a;
+}
+nav a:active{
+    color:#000000;
+}
+
+header{
+        background-color: white;
+        padding: 10px;
+        margin: -10px;
+    }
+h1{
+    color: rgba(223, 78, 34, 0.952);
+    text-align: center;
+    font-size:xxx-large; 
+    font-family: "Zeyada", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: expanded;
+    padding-top: -15px;
+    margin-top: -100px;
+    
+ 
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-family:cursive;
+    text-align: center;
+    margin-top: 500px;
+    position: relative;
+    padding: 50px;
+    font-size: xx-large;
+} 
+    
+.info{
+    text-align: center;
+    font-size: x-large;
+    text-decoration: dotted ;
+    font-style: oblique;
+}
+
+.fea{
+    text-align: center;
+    font-size: large;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: rgb(255, 255, 255);
+    color:rgb(122, 79, 25);
+    margin-top: 400px;
+    padding-top: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    display: block;
+    padding: 20px;
+    margin-bottom: -10px;
+    margin-left:-10px ;
+    margin-right:-10px ;
+}
+.info-top{
+    padding: 30px;
+    margin: -10%;
+}

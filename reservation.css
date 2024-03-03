@@ -1,0 +1,163 @@
+body{
+    letter-spacing: 1px;
+    font-family: Verdana, Arial, sans-serif;
+    color:#0b0d13;
+}
+#logo{
+    background-image: url(images/logo.jpg);
+    height: 150px;
+    width: 150px;
+    background-size: 100% 100%;
+    margin-left:1500px;
+    margin-top: -20px;
+    position: relative;   
+}
+nav {
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 50px;
+    display: inline-block;
+    font-size: large;
+}
+nav a{
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    color:#310505cc;
+    padding-left: 50px;
+}
+nav a:link{
+    color:#a0782e;
+}
+nav a:visited{
+    color:#244eaa;
+}
+nav a:hover{
+    color:#d6550a;
+}
+nav a:active{
+    color:#000000;
+} 
+header{
+        background-color: white;
+        padding: 10px;
+        margin: -10px;
+    }
+h1{
+    color: rgba(223, 78, 34, 0.952);
+    text-align: center;
+    font-size:xxx-large; 
+    font-family: "Zeyada", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: expanded;
+    padding-top: -25px;
+    padding-bottom: -100px;
+ 
+} 
+h2{
+    color: rgb(17, 56, 41);
+    font-family:cursive;
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+} 
+h3{
+    font-size: 16px;
+    color: #cf763a;
+    
+}
+
+.info h2{
+  text-decoration: dotted ;
+  font-style: oblique;
+  color: rgb(248, 243, 243);
+  font-family:cursive;
+  text-align: center;
+  margin-top: -500px;
+  position: relative;
+  padding: 50px;
+  font-size: xx-large;
+}
+form{
+    margin-top: 400px;
+    margin-left: 320px;
+    width: 200%;
+    max-width: 1000px;
+    height: 70%;
+    justify-content:space-evenly;
+    margin-bottom: 90px;
+  
+
+  
+  }
+  .input-group{
+    margin-bottom: 30px;
+    position: relative;
+    margin-top: -20px;
+ }
+ input,textarea{
+    width: 100%;
+    padding: 15px;
+    outline: 0;
+    border: 2px solid rgb(10, 83, 41);
+    border-radius: 8px;
+    color: #080807;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    
+ }
+  label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 15px;
+    color: #2c2822;
+    cursor: text;
+    transition: 0.2s;
+  }
+  button{
+    padding: 15px 0;
+    color: #071d3a;
+    outline: none;
+    background: transparent;
+    border: 2px solid #b66700;
+    border-radius: 10px;
+    width: 103%;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  button:hover{
+    color:#b10a0a;
+    background-color: #b7d1bbd2;
+  }
+  input:focus~label,
+  input:valid~label{
+    top: -35px;
+    font-size: 14px;
+    color: #b93232;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .row.input-group{
+    flex-basis: 50%;
+  }
+  .row2{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+  }
+  .row2.input-group{
+    flex-basis: 50%;
+  }
+  
+  .checkdate{
+    top: -35px;
+  }
+
