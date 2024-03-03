@@ -61,12 +61,15 @@ h1{
 }
 
 .card-container{
-    display: inline-block;
+        display: inline;
     margin-left: -210px;
     position: absolute;
-    padding-right: 189px;
-    margin-top: 260px;
-    background-position: center;
+    padding-right: 0px;
+    margin-top: -203px;
+    background-position: left;
+    top: 108px;
+    left: 484px;
+    width: 50%;
     
 }
 .card{
